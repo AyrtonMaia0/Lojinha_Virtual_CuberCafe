@@ -1,0 +1,198 @@
+
+/*---- TELA PRODUTO A | B | C----*/
+.tela2{
+    padding: 60px;
+    text-align: center;
+    background: #236dc1;
+    color: white;
+    margin:0px;
+    height: 8px;
+  }
+  
+  .home {
+  /*  display: flex;
+    background-color: #236dc1;
+    justify-content: end;
+    margin-right: 18px;
+    margin-top: 25px;*/
+    margin-left: -2%;
+  }
+  .topo{
+    color: white;
+    padding: 0% 1%;
+  }
+  
+  h2{
+    padding: 0% 7%;
+  }
+  
+  #ctt{
+    display:flex;
+  }
+  
+  .panel{
+    margin: 0% 16%;
+    width: 30%;
+  }
+
+/**/
+
+  div#calcularA:hover{
+    padding-top: 0px;
+    border: 2px solid #6a00f5;
+  }
+  div#calcularB:hover{
+    padding-top: 0px;
+    border: 2px solid #6a00f5;
+  }
+  div#calcularC:hover{
+    padding-top: 0px;
+    border: 2px solid #6a00f5;
+  }
+  div#calcularD:hover{
+    padding-top: 0%;
+    border: 2px solid #6a00f5;
+  }
+  div#calcularE:hover{
+    padding-top: 0%;
+    border: 2px solid #6a00f5;
+  }
+  div#calcularF:hover{
+    padding-top: 0%;
+    border: 2px solid #6a00f5;
+  }
+/*--*/
+  div#carrinhoA:hover{
+    padding-top: 0%;
+    border: 2px solid #4b0591c2;
+  }
+  div#carrinhoB:hover{
+    padding-top: 0%;
+    border: 2px solid #4b0591c2;
+  }
+  div#carrinhoC:hover{
+    padding-top: 0%;
+    border: 2px solid #4b0591c2;
+  }
+  div#carrinhoD:hover{
+    padding-top: 0%;
+    border: 2px solid #4b0591c2;
+  }
+  div#carrinhoE:hover{
+    padding-top: 0%;
+    border: 2px solid #4b0591c2;
+  }
+  div#carrinhoF:hover{
+    padding-top: 0%;
+    border: 2px solid #4b0591c2;
+  }
+
+/**/
+
+  h4{
+    font-size: 26px;
+    font-weight: 900;
+    width: 70%;
+  }
+
+
+
+img.cincoP{
+  width: 65%;
+}
+img.megaP{
+  width: 70%;
+}
+
+
+
+
+
+
+
+  /*------------TELA 01--------------*/
+  /*---- TELA HOME ----*/
+
+.tela1{
+  padding: 60px;
+  text-align: center;
+  background: #236dc1;
+  color: white;
+  margin:0px;
+  height: 8px;
+  width: 100%;
+  /*padding: 5% 0%;*/
+}
+
+.home_tela1{
+  margin-left: -2%;
+  /*text-align: end;
+  padding-top: ;*/
+}
+
+div.conjunto{
+  display: grid;
+	grid-template-columns: repeat(3, 500px);
+	gap: 1rem;
+}
+
+section.panel-info{
+  width: 100%;
+}
+
+img#img{
+  width: 30%;
+}
+img.im1{
+  margin: 5% 0% 2% 0%;
+  padding-top: 4%;
+}
+
+.contat{
+  font-size: 16px;
+  padding-bottom: 0px;
+}
+.contat_a{
+  font-style: italic;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+
+.textinho{
+  margin-left: 300px;
+}
+.p_info{
+  width: 60%;
+  font-size: 18px;
+}
+
+
+footer{
+  margin-top: 90px;
+  height: 150px;
+  width: 100%;
+  background-color: #236dc1;
+}
+.sc_footer{
+  display: flex;
+}
+.div_footer{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.h3_footer{
+  margin-left: 20px;
+  padding-top: 20px;
+  color: #99bbf0;
+  width: 103px;
+}
+.contat_a{
+  margin-left: 10px;
+  margin-top: 3px;
+  color:aliceblue;
+}
+a.contat_a:hover{
+  color: #5127a5;
+}

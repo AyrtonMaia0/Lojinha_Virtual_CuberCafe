@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>Cubo Magico Help</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--panel-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!--nav-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header class="tela2">
+    <div class="home">
+      <img src="logo_cubercafe.png" alt="" style="width: 100px; height: 100px; margin-top: -3.5%; border-radius: 50%;">
+      <a href="index1.html" class="topo" style="padding-left: 70%;">Home</a>
+      <a href="" class="topo">Promoções</a>
+      <a href="indexC.html" class="topo">Contato</a>
+    </div>
+  </header>
+
+  <div class="campo_input">
+    
+  </div>
+  
+  <div class="container">
+   
+  </div>
+  
+    <!--PRODUTO & PANEL-->
+  <div class="container" id="ctt">
+   
+    <h2></h2>
+    
+    <h2></h2>    
+      
+  </div>
+
+    <div class="container" id="ctt">
+      <img class="img3_3" id="img" src="https://http2.mlstatic.com/D_NQ_NP_707004-MLB50892590719_072022-W.jpg" alt="">
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">Detalhes do Cubo</div>
+        <div class="panel-body">
+          Fabricado pela empresa Moyu,
+          <br>ele é uma ótima compra para se iniciar e atingir o nivel intermediário.
+          <br>
+          <br>
+          Batendo seus recordes pessoais e até quem sabe, entrar em uma classificação nacional (NR - National Record).
+          <br>
+          <br>
+          É um excelente cubo para treino, diversão e competição
+        
+        </div>
+      </div>
+    </div>
+
+    <div class="container preco">
+
+        <section style="display: flex;">
+            <h2 style="margin-left: -4%;">R$ Preço</h2>
+
+  <!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+            <div id="resC" style="background-color: #adabab00; margin: 18px 0px; padding: 0px 4px; font-size: 25px;">
+              30,00
+            </div>
+        </section>
+
+
+        <section style= "display:flex; font-size: 15px; margin-left: 34px;">
+            <p>Quantidade:</p>
+            <select name="" id="qtdC" style="margin-left: 20px; height: 20px;">
+                <option value=""></option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+            </select>
+        </section>
+        
+      <!--
+        <section style="display: flex; font-size: 15px; margin-left: 34px;">
+            <p>Tipo:</p>
+            <select name="" id="tp" style="margin-left: 20px; height: 20px;">
+                <option value="" selected disabled style="color: gray;">Selecione</option>
+                <option value="">2x2x2</option>
+                <option value="">3x3x3</option>
+                <option value="">4x4x4</option>
+                <option value="">5x5x5</option>
+                <option value="">6x6x6</option>
+                <option value="">7x7x7</option>
+                <option value="">8x8x8</option>
+                <option value="">9x9x9</option>
+                <option value="">10x10x10</option>
+                <option value="">11x11x11</option>
+            </select>
+        </section>
+      -->
+
+  <!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+        <section>
+            <div 
+                style="background-color: #0655ff73; width: 15%; height: 30px; margin-left: 3%; margin-top: 1%; text-align: center; padding-top: 5px; border-radius: 4px; box-shadow: 1px 1px #545454b6; box-sizing: border-box;" 
+                id="calcularC" onclick="clicarC()" onmouseout="sairC()">
+                Calcular 
+            </div>
+
+            <div 
+                style="background-color: #8306ff73; width: 15%; height: 30px; margin-left: 3%; margin-top: 1%; text-align: center; padding-top: 5px; border-radius: 4px; box-shadow: 1px 1px #545454b6; box-sizing: border-box;"
+                id="carrinhoC" onclick="clickCarrinhoC()" onmouseout="sairCarrinhoC()">
+              Adicionar ao Carrinho
+            </div>
+        </section>
+    </div>
+    
+  
+
+  
+    <!--NAV-->
+  <div class="container">
+    <h2></h2>
+    <p></p>
+
+    <ul class="nav nav-tabs">
+      <!--<li class="active"><a data-toggle="tab" href="#home">Informativos</a></li>-->
+      <li class="active"><a data-toggle="tab" href="#menu1">Vídeo</a></li>
+      <li><a data-toggle="tab" href="#menu2">Fotos</a></li>
+      <li><a data-toggle="tab" href="#menu3">Algoritmos</a></li>
+    </ul>
+
+    <div class="tab-content">
+    <!--
+      <div id="home" class="tab-pane fade in active">
+        <h3></h3>
+        <!-site: https://www.blog.oncube.com.br/2022/02/23/so-pessoas-intelegentes-resolvem-o-cubo-magico/->
+
+        <br>
+        <h4>Existem vantagens em solucionar o cubo magico? Quais as vantagens que podem ser absorvidas?</h4>
+        <p class="p_info">Existem várias vantagens. O cubo mágico ajuda a: aprimorar a leitura; desenvolver a interpretação; aumentar a auto-estima; incentivar o interesse e a iniciativa; melhorar o raciocínio lógico e potencializar a concentração. </p>
+
+        <br>
+        <h4>A lógica do Cubo Magico</h4>
+        <p class="p_info">Você sabe um pouquinho de informática? Se não souber não tem problema. Você certamente tem em mente que por detrás de todas informações existentes e ações executáveis no computador, há um algoritmo que torna seu funcionamento possível. Ou seja, os algoritmos são sequências de comandos ou instruções que permitem que etapas e processos sejam feitos e concluídos sem erros.</p>
+
+        <br>
+        <h4>Dedicação, Paciência e Persistência</h4>
+        <p class="p_info">Tendo isso em vista, resolver um cubo mágico não está totalmente relacionado à inteligência. Como percebemos, quando uma pessoa domina a técnica de resolução em mãos, pode resolvê-lo de forma mais rápida se comparado a um indivíduo que não possui instruções. Assim, o que pode estar em jogo são outras habilidades ou até mesmo o interesse da pessoa em vencer o desafio.</p>
+      </div>
+    -->
+      <div id="menu1" class="tab-pane fade in active">
+        <h3>Vídeo</h3>
+        <p>Aqui estão alguns vídeos do YT para ajudar.</p>
+
+        <br>
+        <h4>Motodo básico</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YSKcIBUtr9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <br>
+        <h4>F2L</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DAgLUspmrZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <br>
+        <h4>OLL</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mdwcXPxbOcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <br>
+        <h4>PLL</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9r_HqG4zSbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/jVNdxOet0wg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+      </div>
+
+      <div id="menu2" class="tab-pane fade">
+        <h3>Fotos</h3>
+        <p>Algumas fotos dos cubos magicos que existem.</p>
+
+        <br>
+        <div class="cubos" style="display: flex;">
+          <div>
+            <h4 style="margin-left: auto;">3x3x3</h4>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLiNaENIs3FEyST25kBtiF8yEyOQJHX7itNg&usqp=CAU" alt="">
+          </div>
+
+          <div>
+            <h4 style="margin-left: auto;">4x4x4</h4>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEZKhJdWKn39Zmc8zd-9wGNmyFpYGojj99Lg&usqp=CAU" alt="">
+          </div>
+
+          <div>
+            <h4 style="margin-left: auto; margin-right: auto;">5x5x5</h4>
+            <img class="cincoP" src="https://http2.mlstatic.com/D_NQ_NP_695302-MLA43790432316_102020-O.webp" alt="">
+          </div>
+
+          
+          <div>
+            <h4 style="margin-left: auto; margin-right: auto;">Megaminx</h4>
+            <img class="megaP" src="https://cdn.shopify.com/s/files/1/0603/2100/5725/products/meilong-mega-3x3_580x.jpg?v=1642368640" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <div id="menu3" class="tab-pane fade">
+        <h3>Algoritmos</h3>
+        <p>Aqui você pode ver alguns algoritmos de F2L que ajudaram a diminuir seu tempo.</p>
+
+        <br>
+        <h4>F2L - Caso 12</h4>
+        <p>R U R' U' R U R' U' R U R'</p>
+
+        <br>
+        <h4>Caso 13</h4>
+        <p>U' R' F R F' R U' R'</p>
+        
+        <br>
+        <h4>Caso 14</h4>
+        <p>R U' R' U R U' R' U2 R U' R'</p>
+        
+        <br>
+        <h4>Caso 15</h4>
+        <p>U' R U2 R' U F' U' F</p>
+        
+        <br>
+        <h4>Caso 16</h4>
+        <p>U' R U' R' U R U R'</p>
+        
+      </div>
+
+    </div>
+  </div>
+
+  <footer id="cnt">
+    <h3 class="h3_footer"><strong><u>Contatos</u></strong></h3>
+      <section class="sc_footer">
+
+          <div class="div_footer">
+            <p class="contat">Telefone</p>
+            <a class="contat_a"href=""><p>+55 (81) 94002-8922</p></a>
+          </div>
+        
+          <div class="div_footer">
+            <p class="contat">E-mail</p>
+            <a class="contat_a" href=""><p>maiacubos@gmail.com</p></a>
+          </div>
+
+          <div class="div_footer">
+            <p class="contat">Instagram</p>
+            <a class="contat_a"href="https://www.instagram.com/i_cuber.cafe/" target="_blank"><p>i_cuber.cafe</p></a>
+          </div>
+        
+      </section>
+  </footer>
+    
+  <script src="script.js"></script>
+</body>
+</html>
